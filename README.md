@@ -35,4 +35,11 @@ Nothing needs to be modified to run the script and the resulting spreadsheet wil
 
 # Future Updates
 
+Major future updates for this project are as follows:
+* Use GPT-3 for natural language processing
+* Implement Google Cloud for Google searching as it is much quicker
+* Find new methods to find news (e.g., Facebook, Twitter)
+* Include additional vessel databases to verify collected information and fill in any gaps
 
+
+The script is not stable at this stage and still has bugs being worked out.
