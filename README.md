@@ -8,7 +8,7 @@ This script uses Python along with supporting tools and libraries to scrape the 
 
 The packages used are the following:
 * Spacy
-⋅⋅⋅Spacy is used for the majority of the natural language processing (NLP) at this time. It is used to detect entities (names, locations, organizations etc.) from the body of text found in news articles. Spacy provides options to use their preexisting language processing models or the user has the ability to train their own model. The script mostly uses the preexisting models but does use a custom drug entity extraction model as well.
+   Spacy is used for the majority of the natural language processing (NLP) at this time. It is used to detect entities (names, locations, organizations etc.) from the body of text found in news articles. Spacy provides options to use their preexisting language processing models or the user has the ability to train their own model. The script mostly uses the preexisting models but does use a custom drug entity extraction model as well.
 * Beautiful Soup
 ⋅⋅⋅Beautiful Soup is the primary package used to scrape the web. The package is used to collect Google search results as well as retrieving the text from the news articles.
 * Selenium
