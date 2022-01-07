@@ -20,6 +20,8 @@ The packages used are the following:
 * Google Cloud API
   * The Google Cloud API is used only for translation purposes at this time converting any text from English to another language or vice versa.
 
+At the moment, the script searches Google for news articles given a search term and does so in multiple languages. The article text is then extracted and key words are extracted and searched for on a maritime crime database to search for matches. Given a match is found from the keywords, data about the vessel is extracted from the databases, organized, and inputted into a spreadsheet which can be read by a user.
+
 # Installation
 
 Uses Python 3.9
@@ -29,4 +31,8 @@ Dependencies can be installed using:
 $ pip install -r requirements.txt
 ```
 
+Nothing needs to be modified to run the script and the resulting spreadsheet will be saved in the directory.
+
 # Future Updates
+
+
